@@ -10,7 +10,7 @@ function digitaldatetime() {
 }
 PowerVim=`pwd -P`
 cd $HOME
-sudo apt-get update && apt-get install exuberant-ctags 
+sudo apt-get update && apt-get install universal-ctags
 echo "\033[0;35mStart to install vim-conf\033[0m"
 echo "\033[0;36mLooking for an existing vim config...\033[0m"
 if [ -f ~/.vimrc ] || [ -h ~/.vimrc ]; then
